@@ -3,14 +3,15 @@ Imports System.Text
 Imports System.IO
 
 Public Class Form1
+
     Private http As HttpListener
     Const webpage As String = "<html>
         <head>
         <meta http-equiv='Content-Type' content='text/html; charset=utf-8' /> 
         </head>
         <body>
-        <h1>Kantai Collection Cookies Region Changer</h1>
-        <h1>成功轉換地區</h1>
+        <h1>艦娘餅乾烤爐 KCRegionCookieApplier</h1>
+        <h2>成功烤餅乾<br>Cookie applied.</h2>
         <script>
         document.cookie = 'cklg=welcome;expires=Sun, 09 Feb 2022 09:00:09 GMT;domain=.dmm.com;path=/';
         document.cookie = 'cklg=welcome;expires=Sun, 09 Feb 2022 0900:09 GMT;domain=.dmm.com;path=/netgame/';
@@ -24,6 +25,18 @@ Public Class Form1
         </script>
         </body>
         </html>"
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        http = New HttpListener()
+        http.Prefixes.Add("http://+:80/")
+        http.Start()
+        http.BeginGetContext(AddressOf requestWait, Nothing)
+        Try
+            File.AppendAllText("C:\Windows\System32\drivers\etc\hosts", vbCrLf & "127.0.0.1 dmm.com" & vbCrLf & "127.0.0.1 www.dmm.com")
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "ERROR")
+        End Try
+    End Sub
 
     Private Sub requestWait(ByVal ar As IAsyncResult)
         If Not http.IsListening Then
@@ -41,26 +54,14 @@ Public Class Form1
             sw.WriteLine(webpage)
         End Using
         context.Response.OutputStream.Close()
-    End Sub
-
-    Private Sub FlatToggle1_CheckedChanged(sender As Object) Handles FlatToggle1.CheckedChanged
-        If FlatToggle1.Checked Then
-            http = New HttpListener()
-            http.Prefixes.Add("http://+:80/")
-            http.Start()
-            http.BeginGetContext(AddressOf requestWait, Nothing)
-            Try
-                File.AppendAllText("C:\Windows\System32\drivers\etc\hosts", vbCrLf & "127.0.0.1 dmm.com" & vbCrLf & "127.0.0.1 www.dmm.com")
-            Catch ex As Exception
-                MsgBox(ex.Message, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "ERROR")
-            End Try
-        Else
-            File.WriteAllText("C:\Windows\System32\drivers\etc\hosts",
+        File.WriteAllText("C:\Windows\System32\drivers\etc\hosts",
                               System.IO.File.ReadAllText("C:\Windows\System32\drivers\etc\hosts").
                               Replace(vbCrLf & "127.0.0.1 dmm.com", "").
                               Replace(vbCrLf & "127.0.0.1 www.dmm.com", ""))
-            http.Stop()
-        End If
+        http.Stop()
+        Me.Close()
+
     End Sub
+
 
 End Class
