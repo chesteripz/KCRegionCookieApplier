@@ -5,6 +5,10 @@
 
 *注意請以管理員身份執行
 
+### 影片示範
+
+[![KCRegionCookieApplier demonstration](http://img.youtube.com/vi/eztIqbPxNfg/0.jpg)](http://www.youtube.com/watch?v=eztIqbPxNfg "KCRegionCookieApplier demonstration")
+
 ### 系統要求
 
 * Windows 10
