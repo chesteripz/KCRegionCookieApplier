@@ -11,6 +11,7 @@ This application will simulate a DMM server to edit DMM cookie's region flag.
 3. 以管理員身份執行 KCRegionCookieApplier.exe
 4. 在瀏覽器重新整理頁面兩次
 
+  Translation:
 1. Launch the browser you prefer
 2. Attempt to access KanColle play page (http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/)
 3. Run KCRegionCookieApplier.exe as administrator
