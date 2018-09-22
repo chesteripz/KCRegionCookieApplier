@@ -10,15 +10,3 @@ C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debu
 C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.exe
 C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.xml
 C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.pdb
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\bin\Debug\KCRegionCookieApplier.exe.config
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\bin\Debug\KCRegionCookieApplier.exe
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\bin\Debug\KCRegionCookieApplier.pdb
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\bin\Debug\KCRegionCookieApplier.xml
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.vbprojResolveAssemblyReference.cache
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.Form1.resources
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.Resources.resources
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.vbproj.GenerateResource.cache
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.vbproj.CoreCompileInputs.cache
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.exe
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.xml
-E:\_mainClass System 45EA2800\KCRegionCookieApplier\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.pdb
