@@ -1,0 +1,12 @@
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\bin\Debug\KCRegionCookieApplier.exe.config
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\bin\Debug\KCRegionCookieApplier.exe
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\bin\Debug\KCRegionCookieApplier.pdb
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\bin\Debug\KCRegionCookieApplier.xml
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.vbprojResolveAssemblyReference.cache
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.Form1.resources
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.Resources.resources
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.vbproj.GenerateResource.cache
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.vbproj.CoreCompileInputs.cache
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.exe
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.xml
+C:\Users\Chester\AppData\Local\Temporary Projects\KCRegionCookieApplier\obj\Debug\KCRegionCookieApplier.pdb
